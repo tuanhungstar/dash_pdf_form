@@ -1,6 +1,4 @@
+heroku
 *.pyc
 .DS_Store
-venv
-venv/
-.venv
-.vscode/settings.json
+.env
