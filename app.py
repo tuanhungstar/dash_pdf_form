@@ -7,6 +7,7 @@ app = dash.Dash()
 #app.layout = html.Div(html.H6("Phung Tuan Hung"),className ='page main-title')
 ##css3###
 main_item = {'margin':'20px','color':'#0803f8'}
+server = app.server
 app.layout = html.Div([
 
                         html.Div([
