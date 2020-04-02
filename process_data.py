@@ -4,7 +4,7 @@ import pathlib
 #findlink ="/data/MASTER_UPDATE.xlsx"
 # get relative data folder
 PATH = pathlib.Path(__file__).parent
-DATA_PATH = PATH.joinpath("..../data").resolve()
+DATA_PATH = PATH.joinpath("data").resolve()
 class get_chart:
     def Trigger_logical_group(app):
 
